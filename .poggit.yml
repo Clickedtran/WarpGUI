@@ -1,5 +1,5 @@
 --- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Clickedtran/WarpGUI-PM4
-build-by-default: fasle
+build-by-default: false
 branches:
 - Master
 projects:
