@@ -33,6 +33,8 @@
 ## Credits / Virions Used
 - [InvMenu](https://github.com/Muqsit/InvMenu) (Muqsit)
 - [DEVirion](https://github.com/poggit/devirion) (SOF3)
+- [Commando](https://github.com/CortexPE/Commando) (CortexPE)
+- [SimplePacketHandler](https://github.com/muqsit/SimplePacketHandler) (Muqsit)
 
 <br>
 
@@ -52,7 +54,8 @@
 - use permission `warpgui.command.help` to use command /warpgui help
 - use permission `warpgui.command.create` to use command /warpgui create
 - use permission `warpgui.command.remove` to use command /warpgui remove
-- use permission `warpgui.command.edit` to use command /warpgui edit
+- use permission `warpgui.command.setup` to use command /warpgui setup
+- use permission `warpgui.command.list` to use command /warpgui list
 
 </details>
 
