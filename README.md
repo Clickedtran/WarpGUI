@@ -24,11 +24,6 @@
 - The plugin is inspired by the WarpGUI of Minecraft PC
 
 <br>
-<h3>Fixed</h3>
-
->- Issues #2
->- Fixed error: ` Do not have in hand`
-<br>
 
 ## Credits / Virions Used
 - [InvMenu](https://github.com/Muqsit/InvMenu) (Muqsit)
@@ -89,27 +84,50 @@ menu-name: "WarpGUI"
 
 ---
 ## 📚 For Developer
-- You can access to WarpGUI by using 
-- You can usage to:
-<details>
-  <summary>Click to see</summary>
-
->- Create Warp Usage:
-
+### API
 ```php
-$warpname = "Warp1";
-WarpGUI::getInstance()->addWarp($warpname);
+$api = WarpManager::getInstance();
 ```
-
->- Remove Warp Usage:
-
+### Create New Warp
 ```php
-$warpname = "Warp1";
-WarpGUI::getInstance()->removeWarp($warpname);
+$name = "fishing";
+
+//check warp exists
+if($api->getWarp()->exsits($name)){
+   $player->sendMessage("warp already exists!");
+   return;
+}
+$api->addWarp($name);
+$player->sendMessage("Warp ".$name." has been created successfully");
 ```
+### Remove Warp
+```php
+$name = "fishing";
 
-</details>
+if(!$api->getWarp()->exists($name)){
+   $player->sendMessage("warp does not exists!");
+   return;
+}
+$api->removeWarp($name);
+$player->sendMessage("Warp ".$name." has been removed");
+```
+### Setup Warp
+```php
+/**
+*@var Player $player
+*/
+$api->editWarp[$player->getName()];
+```
+### Teleport Player To Warp
+```php
+/**
+*@var Player $player
+*@var string $name
+*/
 
+$name = "fishing";
+$api->teleportToWarp($player, $name);
+```
 <br>
 
 ## ▶️ Tutorial Setup
