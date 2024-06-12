@@ -12,8 +12,8 @@ permissions:
   warpgui.command.remove:
     description: Permission remove warp
     default: op
-  warpgui.command.edit:
-    description: Permission edit warp
+  warpgui.command.setup:
+    description: Permission setup warp
     default: op
   warpgui.command.help:
     description: Permission help all commands warp
