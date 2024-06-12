@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace ClickedTran\WarpGUI;
 
 use pocketmine\plugin\PluginBase;
-
 use muqsit\invmenu\InvMenuHandler;
 use CortexPE\Commando\exception\HookAlreadyRegistered;
 use CortexPE\Commando\PacketHooker;
