@@ -4,7 +4,7 @@ branches:
 - Master
 projects:
   WarpGUI:
-   path: ""
+    path: ""
     icon: icon.png
     libs:
      - src: Muqsit/InvMenu/InvMenu
