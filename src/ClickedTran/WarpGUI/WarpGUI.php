@@ -28,7 +28,7 @@ class WarpGUI extends PluginBase {
 		$this->getServer()->getCommandMap()->register("WarpGUI", new WarpGUICommands($this, "warpgui", "§o§7Warp Commands", ["warp"]));
 		self::$instance = $this;
 		if(!InvMenuHandler::isRegistered()) InvMenuHandler::register($this);
-        if(!PacketHooker::isRegistered()) PacketHooker::register($this);
+                if(!PacketHooker::isRegistered()) PacketHooker::register($this);
 	}
 
 	public function onDisable() : void {
