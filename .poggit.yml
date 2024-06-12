@@ -1,0 +1,18 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/ClickedTran/WarpGUI
+build-by-default: true
+branches:
+- Master
+projects:
+  WarpGUI-PM4:
+   path: ""
+    icon: icon.png
+    libs:
+     - src: Muqsit/InvMenu/InvMenu
+       version: ^4.6.5
+       branch: pm5
+     - src: CortexPE/Commando/Commando
+       version: ^3.0.0
+       branch: PM4
+     - src: Muqsit/SimplePacketHandler/SimplePacketHandler
+       version: ^0.1.0
+...
