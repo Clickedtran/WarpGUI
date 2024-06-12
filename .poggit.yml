@@ -6,10 +6,4 @@ projects:
   WarpGUI-PM4:
     path: ""
     icon: icon.png
-    libs:
-     - src: Muqsit/InvMenu/InvMenu
-       version: ^4.6.5
-       branch: pm5
-     - src: Muqsit/SimplePacketHandler/SimplePacketHandler
-       version: ^0.1.3
 ...
