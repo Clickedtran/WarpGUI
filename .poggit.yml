@@ -3,7 +3,7 @@ build-by-default: true
 branches:
 - Master
 projects:
-  WarpGUI-PM4:
+  WarpGUI:
    path: ""
     icon: icon.png
     libs:
