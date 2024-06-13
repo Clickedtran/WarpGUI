@@ -1,6 +1,6 @@
 name: WarpGUI
 main: ClickedTran\WarpGUI\WarpGUI
-api: 5.0.0
+api: 5.15.0
 version: 1.2.6
 author: ClickedTran
 description: it's a plugin that allows you to navigate using the chest menu
