@@ -33,6 +33,6 @@ class WarpGUI extends PluginBase implements Listener{
 	}
 
 	public function onDisable() : void {
-		WarpManager::getInstance()->saveAllWarp();
+		WarpManager::getInstance()->getWarp()->save();
 	}
 }
