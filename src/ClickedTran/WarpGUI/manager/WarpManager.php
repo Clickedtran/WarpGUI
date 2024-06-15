@@ -78,10 +78,6 @@ class WarpManager {
 		}
 	}
 
-	public function saveAllWarp() : void{
-		return $this->getWarp()->save();
-	}
-
 	public function itemToData(Item $item): string {
         $cloneItem = clone $item;
         $itemNBT = $cloneItem->nbtSerialize();
