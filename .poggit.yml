@@ -10,8 +10,8 @@ projects:
      - src: muqsit/InvMenu/InvMenu
        version: ^4.6.5
        branch: pm5
-     - src: CortexPE/Commando/Commando
-       version: ^3.2.0
+     - src: Paroxity/Commando/Commando
+       version: ^3.2.1
      - src: muqsit/SimplePacketHandler/SimplePacketHandler
-       version: ^0.1.3
+       version: ^0.1.4
 ...
