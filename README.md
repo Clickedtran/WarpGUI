@@ -28,7 +28,7 @@
 ## Credits / Virions Used
 - [InvMenu](https://github.com/Muqsit/InvMenu) (Muqsit)
 - [DEVirion](https://github.com/poggit/devirion) (SOF3)
-- [Commando](https://github.com/CortexPE/Commando) (CortexPE)
+- [Commando](https://github.com/Paroxity/Commando) (Paroxity)
 - [SimplePacketHandler](https://github.com/muqsit/SimplePacketHandler) (Muqsit)
 
 <br>
