@@ -78,7 +78,7 @@ class WarpManager {
 		}
 	}
 
-	public function saveAllWarp(){
+	public function saveAllWarp() : void{
 		return $this->getWarp()->save();
 	}
 
