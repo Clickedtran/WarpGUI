@@ -132,7 +132,19 @@ $api->teleportToWarp($player, $name);
 
 ## ▶️ Tutorial Setup
 - [Click Here To See The Tutorial Setup](https://www.youtube.com/watch?v=KRF0pttAR04)
-- IMPORTANT THING: You need to install the `DEVirion` plugin into the `plugins/` directory of the server, reload the server, then look for the `virions/` directory, next download and paste the `InvMenu` folder there.
+- IMPORTANT THING: You need to install the `DEVirion` plugin into the `plugins/` directory of the server, reload the server.
+
+```yml
+your_server_file
+| - - plugins
+|       ` - - WarpGUI
+|       ` - - DEVirions
+| - - virions
+|       ` - - InvMenu
+|       ` - - Commando
+|       ` - - SimplePacketHandler
+```
+
 
 <br>
 
